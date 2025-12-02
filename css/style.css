@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 2em;
+    font-family: "Caveat", cursive;
+    color: #d400ff;
+}
+
+
+
+body {
+    background-color: #91dff3;
+}
+
+header {
+    background-color: #37c20d;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    padding: 20px 40px;
+    color: #ebd50f;
+    font-size: large;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #098bdb;
+    color:rgb(158, 74, 74);
+    padding: 20px 40px;
+}
+
+#introduction {
+    background-color: #21e5f3;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#articles {
+    padding: 20px 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Caveat", cursive;
+    text-transform: none;
+}
+
+p {
+    text-align: justify;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+
+}
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+
+q {
+    font-size: 1.1rem;
+}
+#content {
+    
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#bio {
+    
+    padding: 20px 40px;
+    text-align: center;
+}
+#interviev {
+    
+    padding: 20px 40px;
+    text-align: center;
+}
+
+a:link {
+    color:#ec0c1f
+}
+
+a:visited {
+    color:#e74e89
+}
+
+a:active {
+    color: rgb(27, 199, 70);
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:focus {
+    color: rgb(235, 129, 59);
+}
+
+li:nth-child(even){
+    background-color: #0119f7;
+}
+li:nth-child(odd){
+    background-color: #adf309;
+}
+
+a:hover {
+    background-color: rgb(50, 224, 224);
+}
+a:focus{
+    background-color: rgb(94, 18, 165);
+}
+
+li:nth-child(4)::after{
+    content: "Нада!";
+    font-size: 18px;
+    background-color: rgb(118, 145, 24);
+    
+
+}
+
+.h2-new::after {
+    content: "алё";
+    font-size: 10px;
+    color: rgb(5, 120, 214);
+    margin-left: 12px;
+}
+
+p:first-line{
+    letter-spacing: 3px;
+
+}
+
+p:lang(en){
+    text-decoration: underline 1px;
+}
+section p{
+    background-color: #cfe2e6;
+}
+footer img{
+    border:solid #4cd814 3px;
+    
+}
+
+img + p{
+    margin-top: 100px;
+}
+
+.my-table{
+    border: double 10px rgb(218, 48, 104);
+    border-collapse: collapse;
+}
+.my-table td,
+.my-table th{
+    border: solid 1px rgb(35, 20, 167);
+    padding: 10px 15px;
+}
+
+.my-table tr:nth-child(odd){
+    color:rgb(255, 254, 166)
+}
+.my-table td:nth-child(even), 
+.my-table th:nth-child(even){
+    background-color: rgb(236, 179, 73);
+}
+
+.my-table tr:last-child td:nth-child(2){
+    text-align: center;
+}
+
+#register {
+    width: 300px;
+    background-color: rgb(17, 108, 182);
+    margin: 10px auto ;
+    border-radius: 50px;
+    padding: 60px;
+}
+#register input[type = text],
+#register input[type = password],
+#register textarea,
+#register select  {
+    background-color: rgb(211, 221, 233);
+    padding: 7px;
+    border-radius: 5px;
+    color: rgb(94, 37, 77);
+    margin-bottom: 10px;
+    border: 1px solid rgb(65, 21, 66);
+}
+
+#register input[type = submit]{
+    background: rgb(27, 164, 168);
+    border-radius: 2px;
+    color: rgb(213, 193, 233);
+    border: none;
+}
+#register input[type = submit]:hover{
+    background: #478b77;
+}
+
+#register input[type = radio]{
+    accent-color: #348d89;
+}
+
+.termins{
+    border: solid 10px #230edf;
+    border-collapse: collapse;
+}
+.termins td,
+.termins th{
+    border: solid 1px #55ee22;
+    padding: 10px 15px;
+}
+
+.termins tr:nth-child(odd){
+    background-color:#a5cde6
+}
+
+.termins  td:nth-child(1),
+.termins tr:last-child{
+    text-align: right;
+    color: rgb(194, 51, 110);
+} 
+
+#contact-form {
+    color: rgb(238, 7, 7);
+    padding: 10px 20px;
+    background-color: rgb(24, 219, 161);
+    text-align: center;
+}
+
+
+
+#contact-form input[type=text], 
+#contact-form input[type=email]{
+    height: 15px;
+    width: 240px;
+    color: black;
+    border: black solid 2px;
+    background-color: rgb(20, 230, 48);
+    padding: 7px;
+    border-radius: 15px;
+}
+#contact-form input[type=submit]{
+    color: bisque;
+    background-color: rgb(55, 0, 255);
+    border-radius:16px;
+    width: 250px;
+    
+}
+
+
+#contact-form input[type=submit]:hover{
+ 
+    background-color: rgb(194, 51, 110);
+    border: rgb(221, 103, 119) solid 2px;
+   
+}
+
+#contact-form textarea{
+    background-color: rgb(20, 223, 20);
+    border-radius: 16px;
+    color: black;
+    padding:17px;
+    width: 230px;
+    border: black solid 2px;
+}
+#contact-form select{
+    background-color: rgb(20, 233, 48);
+    border-radius: 16px;
+    color: black;
+    padding: 17px;
+    width: 265px;
+    border: black solid 2px;
+}
+
+#contact-form input[type=tel],
+#contact-form input[type=date]{
+    color: black;
+    width: 240px;
+    border: black solid 2px;
+    border-radius: 16px;
+}
